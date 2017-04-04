@@ -1,0 +1,94 @@
+CREATE TABLE CUSTOMER
+(	
+	Customer_Name        VARCHAR2(20) NOT NULL ,
+	Customer_Address     VARCHAR2(80) NOT NULL ,
+	Customer_Email       VARCHAR2(50) NOT NULL ,	
+	Customer_BirthDate   DATE NOT NULL ,
+	Customer_No          VARCHAR2(20) NOT NULL ,
+	Customer_ID          NUMBER(7) NOT NULL PRIMARY KEY 
+);
+insert into customer values('Alan Gavin', '23 new street Dublin12','al@gmail.com','21-JAN-1982','A100',1000);
+
+
+CREATE TABLE ORDERS
+(
+	Date_Order           DATE NOT NULL ,
+	Delivery_Address     VARCHAR2(80) NOT NULL ,
+	Delivery_ContactNo   INTEGER NOT NULL ,
+	Order_No             NUMBER(20) NOT NULL PRIMARY KEY,
+	Customer_ID          NUMBER(7) NOT NULL, 
+  CONSTRAINT fk_customer
+  FOREIGN KEY(Customer_ID)
+  REFERENCES CUSTOMER(Customer_ID)
+);
+insert into orders values('21-FEB-2017','23 new street dublin', 0872123211,1,1000);
+
+CREATE TABLE PRODUCT_ORDERS
+(
+	Quantity             INTEGER NOT NULL ,
+  Product_Description  VARCHAR2(30) NOT NULL ,
+	Product_Code         NUMBER(20) NOT NULL PRIMARY KEY,
+	Order_No             NUMBER(20) NOT NULL ,
+  CONSTRAINT fk_ORDERS
+  FOREIGN KEY(Order_No)
+  REFERENCES ORDERS(Order_No) 
+	 
+);
+insert into PRODUCT_ORDERS values(1 ,'Lenovo 20" monitor', 1213,1);
+
+CREATE TABLE STOCK
+(
+	Product_Description  VARCHAR2(30) NOT NULL ,
+	Unit_SellingPrice    NUMBER(7,2) NOT NULL ,
+	Unit_CostPrice       NUMBER(7,2) NOT NULL ,
+  Product_Code         NUMBER(20) NOT NULL PRIMARY KEY,
+	Supplier_ID          NUMBER(20) NOT NULL,
+	Batch_ID             NUMBER(20) NOT NULL
+ 
+);
+insert into stock values('Lenovo 20" monitor',150.00,100.00,1213,1200,12082016);
+insert into stock values('Dell 14" Monitor',120.00,80.00,4514,0400,04032106);
+insert into stock values('Dell keyboard',20.00,05.00,4511,0400,04062106);
+insert into stock values('Dell insprion desktop',320.00,280.00,4504,0400,04102106);
+insert into stock values('Dell Mouse',25.00,15.00,4513,0400,04112106);
+
+
+
+select * from stock;
+
+
+CREATE TABLE SUPPLIER
+(
+	Supplier_Name        VARCHAR2(25) NOT NULL ,
+	Supplier_Address     VARCHAR2(80) NOT NULL ,
+	Supplier_ID          NUMBER(20) NOT NULL PRIMARY KEY
+);
+insert into supplier values('DELL','1 Dell Street Cork',0400);
+insert into supplier values('LENOVO','2 Lenovo Street Dublin',1200);
+
+Create TABLE Ordered_Stock
+(
+	Stock_Quantity       NUMBER(6,2) NOT NULL ,
+	Product_Code         NUMBER(20) NOT NULL ,
+	Supplier_ID          NUMBER(20) NOT NULL,/* FOREIGN KEY REFERENCES SUPPLIER(Supplier_ID)*/ 
+	Ordered_StockID	     NUMBER(20) NOT NULL,
+  stockOrderDate       DATE not null
+);
+
+insert into ordered_stock values (1,1213,1200,1,'21-feb-2017');
+insert into ordered_stock values (1,4514,0400,1,'21-feb-2017');
+insert into ordered_stock values (1,4511,0400,1,'21-feb-2017');
+insert into ordered_stock values (1,4504,0400,1,'21-feb-2017');
+insert into ordered_stock values (1,4513,0400,1,'21-feb-2017');
+
+Create TABLE Delivered_stock
+(
+	Batch_ID             NUMBER(20) NOT NULL PRIMARY KEY ,
+	Stock_Quantity       NUMBER(6,2) NOT NULL ,
+  delDate              date not null,
+	Ordered_StockID	     NUMBER(20) NOT NULL /*FOREIGN KEY REFERENCES Ordered_Stock(Ordered_StockID)*/
+);
+
+insert into Delivered_stock values (12211,1,'26-feb-2017',1);
+insert into Delivered_stock values (12211,1,'26-feb-2017',1);
+
