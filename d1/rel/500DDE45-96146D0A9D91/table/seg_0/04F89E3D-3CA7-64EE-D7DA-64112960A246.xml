@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04F89E3D-3CA7-64EE-D7DA-64112960A246" schemaObject="620977F9-2B86-9156-D7AC-C0CB56D4B20F" name="PRODUCT">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>PRODUCT</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:58:15 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_DESCRIPTION" id="A2B2B8B6-1F1F-D525-23D3-027B374648C8">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PRODUCT_DESCRIPTION</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:58:15 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIT_SELLINGPRICE" id="E6B1D4EF-66E0-83C9-6A06-302D50CCB2EE">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>UNIT_SELLINGPRICE</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:58:15 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIT_COSTPRICE" id="BC6030EF-D983-3169-3B4A-4666B527183B">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>UNIT_COSTPRICE</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:58:15 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_CODE" id="1EE25D36-4F6E-DA61-1C78-6928489DCF91">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PRODUCT_CODE</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:58:15 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIER_ID" id="C4DB2D55-698A-D9F0-1634-3BB90ADCF089">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>SUPPLIER_ID</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:58:15 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D891D83-FD03-D718-8791-CDF21245F698" referredColumn="44B525F9-470B-556F-28AF-966EBA5B2A5C"/>
+</associations>
+</Column>
+<Column name="BATCH_ID" id="631187C3-5F80-4E3F-2B93-83AEB43E3F94">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>BATCH_ID</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:58:15 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="625C3D7F-248B-F14E-6773-860B627CB6F4" schemaObject="620977F9-2B86-9156-D7AC-C0CB56D4B20F" name="PRODUCT_PK">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>SYS_C007575</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:58:15 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EE25D36-4F6E-DA61-1C78-6928489DCF91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="776A0047-2AC9-9208-0DF6-43A377ADAB68" name="FK_SUPPLIER">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:58:15 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4DB2D55-698A-D9F0-1634-3BB90ADCF089"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

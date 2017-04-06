@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1BC0ED7-9A4F-C93E-4B7D-140293ECC013" schemaObject="1BACD4F3-9E0F-C44E-8AFB-42761C2EF4BC" name="ORDERED_STOCK">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>ORDERED_STOCK</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STOCK_QUANTITY" id="3E5C0308-D0E3-8F83-15F2-F2A30B211C4A">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>ORDERED_STOCK</sourceObjSchema>
+<sourceObjName>STOCK_QUANTITY</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_CODE" id="AEA20F97-A7FE-89B6-4B2F-DB9E882F5EAD">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>ORDERED_STOCK</sourceObjSchema>
+<sourceObjName>PRODUCT_CODE</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIER_ID" id="152EB46C-3B55-48F0-3251-795093888E27">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>ORDERED_STOCK</sourceObjSchema>
+<sourceObjName>SUPPLIER_ID</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDERED_STOCKID" id="ABF44EF9-468E-D020-1E27-77B798B2DE73">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>ORDERED_STOCK</sourceObjSchema>
+<sourceObjName>ORDERED_STOCKID</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STOCKORDERDATE" id="0BF921FF-D546-C3AB-1FEB-C6E78606B09C">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>ORDERED_STOCK</sourceObjSchema>
+<sourceObjName>STOCKORDERDATE</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

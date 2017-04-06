@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A47C24DC-0473-9787-0D3A-1C0DE8DEAB90" schemaObject="1BACD4F3-9E0F-C44E-8AFB-42761C2EF4BC" name="PRODUCT_ORDERS">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>PRODUCT_ORDERS</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="QUANTITY" id="868C6BAF-6BFE-8C2B-36A9-A4BDF7355A36">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>PRODUCT_ORDERS</sourceObjSchema>
+<sourceObjName>QUANTITY</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_DESCRIPTION" id="036F77B5-EE2C-A881-EC3E-44A06F5842D8">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>PRODUCT_ORDERS</sourceObjSchema>
+<sourceObjName>PRODUCT_DESCRIPTION</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_CODE" id="28C54EF9-C5A7-7E54-5D9D-F650B3CE07E0">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>PRODUCT_ORDERS</sourceObjSchema>
+<sourceObjName>PRODUCT_CODE</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB9214F4-1737-2310-79EA-3D5BE8D48C03" referredColumn="11D35D84-7642-8ECE-E5F7-4E4243A269AB"/>
+<colAssociation fkAssociation="C95C9C21-DFE6-5A07-18BE-FF756819F3E2" referredColumn="89A9D494-09EA-10C2-75F7-378810664894"/>
+</associations>
+</Column>
+<Column name="ORDER_NO" id="2EA20174-EFF2-FCCA-3F73-BB2C613BC593">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>PRODUCT_ORDERS</sourceObjSchema>
+<sourceObjName>ORDER_NO</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEB38226-B2C8-4EF4-82D7-B01DAA10A22E" referredColumn="441483A1-7743-8C7B-0B78-4E41E6C18808"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E222BF1-AA6E-6335-3129-ABFC9729C7D9" schemaObject="1BACD4F3-9E0F-C44E-8AFB-42761C2EF4BC" name="PRODUCT_ORDERS_PK">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>SYS_C007496</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:09 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28C54EF9-C5A7-7E54-5D9D-F650B3CE07E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F96ED7BE-59ED-1CCB-1D0F-186BEA8D70C4" name="FK_ORDERS">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:10 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EA20174-EFF2-FCCA-3F73-BB2C613BC593"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60CE65FF-15C0-11E8-957C-F2E6ADD91B6B" name="FK_STOCK">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 15:08:03 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28C54EF9-C5A7-7E54-5D9D-F650B3CE07E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="966773F4-6618-1803-2AE4-A4F1B4EAD99A" name="FK_PRODUCT">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28C54EF9-C5A7-7E54-5D9D-F650B3CE07E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

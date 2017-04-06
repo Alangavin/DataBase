@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE6337E2-DC42-1B5C-944C-B91422F5AE9E" schemaObject="1BACD4F3-9E0F-C44E-8AFB-42761C2EF4BC" name="DELIVERED_STOCK">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>DELIVERED_STOCK</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BATCH_ID" id="ABE40D51-2597-CECF-1F4C-96B5334528FB">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>DELIVERED_STOCK</sourceObjSchema>
+<sourceObjName>BATCH_ID</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STOCK_QUANTITY" id="210ED7F9-036E-9242-A5B9-C64BCFF29839">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>DELIVERED_STOCK</sourceObjSchema>
+<sourceObjName>STOCK_QUANTITY</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DELDATE" id="3875ABC2-5F3B-7D6A-DAEC-8748D5626D75">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>DELIVERED_STOCK</sourceObjSchema>
+<sourceObjName>DELDATE</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDERED_STOCKID" id="632FE883-C811-14AE-D5E6-2B5E07417DF1">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>DELIVERED_STOCK</sourceObjSchema>
+<sourceObjName>ORDERED_STOCKID</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8DC8CAA-34B5-1FCD-32ED-DCB04BF2293C" schemaObject="1BACD4F3-9E0F-C44E-8AFB-42761C2EF4BC" name="DELIVERED_STOCK_PK">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>SYS_C007533</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:09 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABE40D51-2597-CECF-1F4C-96B5334528FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

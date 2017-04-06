@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SUPPLIER" directorySegmentName="seg_0" id="477789CD-8383-4813-798B-05E015A6DB99">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<schemaObject>74C2F167-F836-3A73-2D26-281943E7BBB3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9DAE8FFE-55AE-8753-09CE-3FE4F3A9A5A7</segment>
+<tableSpace>BEBFBA75-0443-F339-7913-DFC5F6402E7F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SUPPLIER_NAME" id="4F3C5A6D-C9CC-B710-715A-BEB919719AEF">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIER_ADDRESS" id="A99355C8-D224-1BFA-DB35-7FFE87B5C47F">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIER_ID" id="CBFAECAF-A627-0E24-4DCB-A1EF30FE96B2">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SUPPLIER_PK" id="6A885207-CEA2-CC6E-D21E-F26584C9A737">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<schemaObject>74C2F167-F836-3A73-2D26-281943E7BBB3</schemaObject>
+<segment>1E9100CA-8857-6758-85D9-3A90BB023972</segment>
+<tableSpace>BEBFBA75-0443-F339-7913-DFC5F6402E7F</tableSpace>
+<indexSegment>1E9100CA-8857-6758-85D9-3A90BB023972</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

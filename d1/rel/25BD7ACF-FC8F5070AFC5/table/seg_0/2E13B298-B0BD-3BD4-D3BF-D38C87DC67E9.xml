@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E13B298-B0BD-3BD4-D3BF-D38C87DC67E9" schemaObject="BC3AE162-62F5-B323-1503-9EB3ED8DFEA9" name="SUPPLIER">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>SUPPLIER</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUPPLIER_NAME" id="2D192B3E-B411-DA1F-2962-8900C06706E0">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>SUPPLIER</sourceObjSchema>
+<sourceObjName>SUPPLIER_NAME</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIER_ADDRESS" id="3E6651DA-A9D1-278C-82E9-9D551D656637">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>SUPPLIER</sourceObjSchema>
+<sourceObjName>SUPPLIER_ADDRESS</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIER_ID" id="B3C2D806-E971-F260-9420-8D97D4667E5A">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>SUPPLIER</sourceObjSchema>
+<sourceObjName>SUPPLIER_ID</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8960C400-9D29-6031-903B-E362E911278C" schemaObject="BC3AE162-62F5-B323-1503-9EB3ED8DFEA9" name="SUPPLIER_PK">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>SYS_C007583</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3C2D806-E971-F260-9420-8D97D4667E5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

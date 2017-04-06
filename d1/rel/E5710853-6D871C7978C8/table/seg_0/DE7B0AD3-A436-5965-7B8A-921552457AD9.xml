@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE7B0AD3-A436-5965-7B8A-921552457AD9" schemaObject="74C2F167-F836-3A73-2D26-281943E7BBB3" name="COMPUTER">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>COMPUTER</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_NO" id="9FB0AABF-BEDA-3AC2-B40B-C88AA5A19C2B">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>COMPUTER</sourceObjSchema>
+<sourceObjName>ORDER_NO</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="244A3F8D-B496-9DFA-F4F0-BC1464A7DD52" referredColumn="D3794C24-A898-A792-D753-6C06DD7FB5A5"/>
+</associations>
+</Column>
+<Column name="BATCH_ID" id="7920D7AF-6A5B-E5BB-B832-20E1298D1976">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>COMPUTER</sourceObjSchema>
+<sourceObjName>BATCH_ID</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEL_DATE" id="9011A261-9AE6-106F-29B1-FB3177DC7456">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>COMPUTER</sourceObjSchema>
+<sourceObjName>DEL_DATE</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STAFFID" id="03B88955-A65D-B879-AB06-076D0D2A5269">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>COMPUTER</sourceObjSchema>
+<sourceObjName>STAFFID</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05B9C68D-D08F-6B44-7992-6B068266FC65" referredColumn="DBFC3888-FDA3-2C16-BE05-9B4C821D2427"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D50FAE6-6CCA-C2A4-773F-1699BD5A044D" name="SYS_C007587">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>SYS_C007587</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7920D7AF-6A5B-E5BB-B832-20E1298D1976"/>
+<colUsage columnID="03B88955-A65D-B879-AB06-076D0D2A5269"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="130886BA-313E-1A21-BAAD-27EE21D67D54" schemaObject="74C2F167-F836-3A73-2D26-281943E7BBB3" name="SYS_C007587">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>SYS_C007587</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7920D7AF-6A5B-E5BB-B832-20E1298D1976"/>
+<colUsage columnID="03B88955-A65D-B879-AB06-076D0D2A5269"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEF302F5-87BA-5FB6-60E3-6024803C4841" name="FK_STAFF">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FB0AABF-BEDA-3AC2-B40B-C88AA5A19C2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="085A42CD-716E-28C0-E9E9-2780B612D993" name="FK_STAFF1">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03B88955-A65D-B879-AB06-076D0D2A5269"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

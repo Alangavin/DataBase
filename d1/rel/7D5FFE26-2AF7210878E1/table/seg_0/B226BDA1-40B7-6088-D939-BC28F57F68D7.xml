@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B226BDA1-40B7-6088-D939-BC28F57F68D7" schemaObject="1BACD4F3-9E0F-C44E-8AFB-42761C2EF4BC" name="COMPUTER">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>COMPUTER</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<importedID>029B297C-60F2-7700-48FC-A9F5C2413322</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_NO" id="A959A290-CD19-B9E0-223B-F74249A21464">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>COMPUTER</sourceObjSchema>
+<sourceObjName>ORDER_NO</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<importedID>AA3B0EBC-5E3E-3DCF-6978-EF01EACE4DFB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BATCH_ID" id="609C0E79-B52C-F4EC-6313-9E597124A408">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>COMPUTER</sourceObjSchema>
+<sourceObjName>BATCH_ID</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<importedID>B7F0956C-48F7-96DE-73FB-2FB4CB5FC781</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEL_DATE" id="9000F729-C727-51C0-0DD3-24D15EF9C189">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>COMPUTER</sourceObjSchema>
+<sourceObjName>DEL_DATE</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<importedID>CE04AFD6-4E1E-1108-0F17-CC7F22CF22B9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C588668-BC26-9567-916C-740893A9E4B4" schemaObject="1BACD4F3-9E0F-C44E-8AFB-42761C2EF4BC" name="COMPUTER_PK">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>SYS_C007587</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<importedID>01BF1E9D-7296-0B28-4A9A-0055A56DFDB2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="609C0E79-B52C-F4EC-6313-9E597124A408"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

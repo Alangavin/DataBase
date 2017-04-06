@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SUPPLIER" directorySegmentName="seg_0" id="2E13B298-B0BD-3BD4-D3BF-D38C87DC67E9">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<schemaObject>BC3AE162-62F5-B323-1503-9EB3ED8DFEA9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>FC6AE978-A050-59B6-24C8-79243EC494C4</segment>
+<tableSpace>2A0E8C93-B449-DF9E-C8D5-01FB1E92DC9C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SUPPLIER_NAME" id="2D192B3E-B411-DA1F-2962-8900C06706E0">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIER_ADDRESS" id="3E6651DA-A9D1-278C-82E9-9D551D656637">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIER_ID" id="B3C2D806-E971-F260-9420-8D97D4667E5A">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SUPPLIER_PK" id="8960C400-9D29-6031-903B-E362E911278C">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:56 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<schemaObject>BC3AE162-62F5-B323-1503-9EB3ED8DFEA9</schemaObject>
+<segment>FCCC95D4-1038-900A-1A56-E5AE112BF001</segment>
+<tableSpace>2A0E8C93-B449-DF9E-C8D5-01FB1E92DC9C</tableSpace>
+<indexSegment>FCCC95D4-1038-900A-1A56-E5AE112BF001</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

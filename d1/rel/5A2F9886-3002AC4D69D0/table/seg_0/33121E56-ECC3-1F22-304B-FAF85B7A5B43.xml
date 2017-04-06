@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33121E56-ECC3-1F22-304B-FAF85B7A5B43" schemaObject="AE34A0F8-A7B3-2882-82C8-4D3507787B2B" name="STAFF">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>STAFF</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:35:06 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FNAME" id="BD488F2A-7C5B-2CA7-18E1-BAF491C5326E">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>STAFF</sourceObjSchema>
+<sourceObjName>FNAME</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:35:06 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SNAME" id="7A1C1E5A-CB90-0377-08DC-FF296DA021EA">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>STAFF</sourceObjSchema>
+<sourceObjName>SNAME</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:35:06 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STAFFID" id="9F49A117-A9E5-3C57-C6E5-41F382C3BE34">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>STAFF</sourceObjSchema>
+<sourceObjName>STAFFID</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:35:06 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAC0F7DB-BA26-8FC2-2782-1EC012A01E99" schemaObject="AE34A0F8-A7B3-2882-82C8-4D3507787B2B" name="STAFF_PK">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>SYS_C007597</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:35:06 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F49A117-A9E5-3C57-C6E5-41F382C3BE34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

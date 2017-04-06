@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A51EF8D2-7D82-4463-761A-B009B21C9380" schemaObject="74C2F167-F836-3A73-2D26-281943E7BBB3" name="CUSTOMER">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>CUSTOMER</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMER_NAME" id="1F4DB8BF-A4AB-7EBE-2E70-F680BDD2FA7F">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_NAME</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_ADDRESS" id="F1AC5E5A-05C5-3202-3D0D-711240F44E81">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_ADDRESS</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_EMAIL" id="D91EE257-5DCC-CA2E-45A1-FCF510676084">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_EMAIL</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_BIRTHDATE" id="2BE56E0B-5326-01E9-AC12-356CD2B7857A">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_BIRTHDATE</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_ID" id="838FBAEB-7799-88C8-0068-8F15B03923DC">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_ID</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0420C765-6EFF-194D-B587-1E7F09EA6627" schemaObject="74C2F167-F836-3A73-2D26-281943E7BBB3" name="CUSTOMER_PK">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>SYS_C007557</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:43:59 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="838FBAEB-7799-88C8-0068-8F15B03923DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE51FAC0-3BD7-B4EE-A07A-978A84C50484" schemaObject="1BACD4F3-9E0F-C44E-8AFB-42761C2EF4BC" name="PRODUCT">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>PRODUCT</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<importedID>34025844-EFB4-E050-AE67-4226D615B27A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_DESCRIPTION" id="E6E4F95B-35D9-4A5D-19D9-0CA76D732612">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PRODUCT_DESCRIPTION</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<importedID>6125BB84-76F9-550C-0FF6-5DD7BA0081BF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIT_SELLINGPRICE" id="790E27F5-FB3D-9E9E-F01D-B34A5E57B5FF">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>UNIT_SELLINGPRICE</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<importedID>BDDD9673-0A3E-2038-5975-3F10E152C1F5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIT_COSTPRICE" id="8D4CB84B-F5FE-94A8-1AE3-48DE61EDA66A">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>UNIT_COSTPRICE</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<importedID>1F531684-86F3-1B00-4759-AF7450BB068B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_CODE" id="89A9D494-09EA-10C2-75F7-378810664894">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PRODUCT_CODE</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<importedID>29BF8E37-FB9D-202F-7D99-D9E539769896</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIER_ID" id="2A8E57EC-5E33-0575-8A7C-5D363342BEFF">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>SUPPLIER_ID</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<importedID>C36BD7B7-2605-4A7A-F472-DAF52A601AF8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="018A82EF-CB75-CE24-BE4B-C0C7B5714871" referredColumn="D050506D-8D23-5E3A-F4B4-B6EA3B62D6C8"/>
+</associations>
+</Column>
+<Column name="BATCH_ID" id="121C7C3E-D2D2-D6FB-1F22-25E19F9B5075">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>BATCH_ID</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<importedID>38FEF0B0-3D4A-CEEC-48EF-94A7FE78A7A1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,20,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D825C24-30F8-392A-8966-C5BD31A83175" schemaObject="1BACD4F3-9E0F-C44E-8AFB-42761C2EF4BC" name="PRODUCT_PK">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjSchema>MY_FIRST_DB</sourceObjSchema>
+<sourceObjName>SYS_C007575</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<importedID>743F5E7A-67B2-7423-6ABA-5F570ACC8064</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89A9D494-09EA-10C2-75F7-378810664894"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CE03520-E2D4-1169-FC88-CF903D2F4B8A" name="FK_SUPPLIERv1">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A8E57EC-5E33-0575-8A7C-5D363342BEFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

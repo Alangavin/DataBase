@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CUSTOMER" directorySegmentName="seg_0" id="358435D9-1A0C-124C-DA2E-2EF128ACD608">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<schemaObject>BC3AE162-62F5-B323-1503-9EB3ED8DFEA9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>FC6AE978-A050-59B6-24C8-79243EC494C4</segment>
+<tableSpace>2A0E8C93-B449-DF9E-C8D5-01FB1E92DC9C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CUSTOMER_EMAIL" id="17E25AB9-663D-AD06-A0B7-3655EE5E110F">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_ADDRESS" id="5BECC10B-6EFB-5589-CECD-6672D451C986">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_BIRTHDATE" id="6B894393-32FF-3C22-F77C-F852F05FEB6C">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_NAME" id="842F730B-C076-7A3A-1D9F-2289DB23493D">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_ID" id="CA3A2D51-59C8-99C1-000A-7D8330C0ED4E">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CUSTOMER_PK" id="200C9E8F-8DA5-5F41-D3B3-A7BC515FBB96">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:56 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<schemaObject>BC3AE162-62F5-B323-1503-9EB3ED8DFEA9</schemaObject>
+<segment>FCCC95D4-1038-900A-1A56-E5AE112BF001</segment>
+<tableSpace>2A0E8C93-B449-DF9E-C8D5-01FB1E92DC9C</tableSpace>
+<indexSegment>FCCC95D4-1038-900A-1A56-E5AE112BF001</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

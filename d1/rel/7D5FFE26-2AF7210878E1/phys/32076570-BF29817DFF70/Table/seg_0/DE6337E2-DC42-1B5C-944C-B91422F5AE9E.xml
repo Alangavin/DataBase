@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DELIVERED_STOCK" directorySegmentName="seg_0" id="DE6337E2-DC42-1B5C-944C-B91422F5AE9E">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<schemaObject>1BACD4F3-9E0F-C44E-8AFB-42761C2EF4BC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>52F4A5F4-6221-2A92-B503-DB6593BBA49D</segment>
+<tableSpace>EE7714D5-BA90-68B2-395E-315C1F494AF4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STOCK_QUANTITY" id="210ED7F9-036E-9242-A5B9-C64BCFF29839">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DELDATE" id="3875ABC2-5F3B-7D6A-DAEC-8748D5626D75">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDERED_STOCKID" id="632FE883-C811-14AE-D5E6-2B5E07417DF1">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BATCH_ID" id="ABE40D51-2597-CECF-1F4C-96B5334528FB">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:07 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DELIVERED_STOCK_PK" id="F8DC8CAA-34B5-1FCD-32ED-DCB04BF2293C">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:10 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<schemaObject>1BACD4F3-9E0F-C44E-8AFB-42761C2EF4BC</schemaObject>
+<segment>FB5699D2-02E9-0D47-C985-6B98B6894E92</segment>
+<tableSpace>EE7714D5-BA90-68B2-395E-315C1F494AF4</tableSpace>
+<indexSegment>FB5699D2-02E9-0D47-C985-6B98B6894E92</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

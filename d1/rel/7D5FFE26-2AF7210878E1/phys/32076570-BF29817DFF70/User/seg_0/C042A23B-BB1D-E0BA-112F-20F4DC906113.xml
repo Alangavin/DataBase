@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="MY_FIRST_DB" directorySegmentName="seg_0" id="C042A23B-BB1D-E0BA-112F-20F4DC906113">
+<sourceConnName>ClassPro</sourceConnName>
+<sourceObjName>MY_FIRST_DB</sourceObjName>
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 14:53:05 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<schemaObject>1BACD4F3-9E0F-C44E-8AFB-42761C2EF4BC</schemaObject>
+</UserOraclev10g>

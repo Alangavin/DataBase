@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PRODUCT" directorySegmentName="seg_0" id="76B70587-2C7D-EFE1-2545-A0613F042AE9">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<schemaObject>BC3AE162-62F5-B323-1503-9EB3ED8DFEA9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>FC6AE978-A050-59B6-24C8-79243EC494C4</segment>
+<tableSpace>2A0E8C93-B449-DF9E-C8D5-01FB1E92DC9C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRODUCT_DESCRIPTION" id="366EF439-A228-455C-3E4C-4D0EF406FB12">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCT_CODE" id="564D85F2-3DD9-9ABC-9F0F-9B5F9E5F92FC">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNIT_SELLINGPRICE" id="73E27419-549F-F09D-ECCC-57D8EE08CD14">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BATCH_ID" id="86BAE167-36FA-72EE-A4B7-EB0D3FB5F253">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNIT_COSTPRICE" id="A9A88942-25AE-3D57-31C1-D9C79E916442">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIER_ID" id="DFCE195D-5801-4734-93AB-E1308149EB7D">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:55 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SUPPLIER" id="D28E8319-EF75-B2DE-326F-F3A8B7A3C620">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:56 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRODUCT_PK" id="D1B78ED7-923B-7A5D-E215-5AE947371643">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:08:56 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<schemaObject>BC3AE162-62F5-B323-1503-9EB3ED8DFEA9</schemaObject>
+<segment>FCCC95D4-1038-900A-1A56-E5AE112BF001</segment>
+<tableSpace>2A0E8C93-B449-DF9E-C8D5-01FB1E92DC9C</tableSpace>
+<indexSegment>FCCC95D4-1038-900A-1A56-E5AE112BF001</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

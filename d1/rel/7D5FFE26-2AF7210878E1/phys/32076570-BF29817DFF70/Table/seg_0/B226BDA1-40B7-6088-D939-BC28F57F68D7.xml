@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="COMPUTER" directorySegmentName="seg_0" id="B226BDA1-40B7-6088-D939-BC28F57F68D7">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<schemaObject>1BACD4F3-9E0F-C44E-8AFB-42761C2EF4BC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>52F4A5F4-6221-2A92-B503-DB6593BBA49D</segment>
+<tableSpace>EE7714D5-BA90-68B2-395E-315C1F494AF4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BATCH_ID" id="609C0E79-B52C-F4EC-6313-9E597124A408">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEL_DATE" id="9000F729-C727-51C0-0DD3-24D15EF9C189">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_NO" id="A959A290-CD19-B9E0-223B-F74249A21464">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COMPUTER_PK" id="7C588668-BC26-9567-916C-740893A9E4B4">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 22:50:51 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<schemaObject>1BACD4F3-9E0F-C44E-8AFB-42761C2EF4BC</schemaObject>
+<segment>FB5699D2-02E9-0D47-C985-6B98B6894E92</segment>
+<tableSpace>EE7714D5-BA90-68B2-395E-315C1F494AF4</tableSpace>
+<indexSegment>FB5699D2-02E9-0D47-C985-6B98B6894E92</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

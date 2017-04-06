@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="COMPUTER" directorySegmentName="seg_0" id="4C0988BB-464C-8FF5-848D-07B9A8E7970E">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:35:06 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<schemaObject>AE34A0F8-A7B3-2882-82C8-4D3507787B2B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>48E305D6-B7DE-1C0A-D4FD-4C5A8E56697A</segment>
+<tableSpace>CDC4D02B-A9EB-B292-CEE8-97EFFAE418F7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DEL_DATE" id="70A1CD9E-55EA-37D3-B03D-3DAA31F84A52">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:35:06 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STAFFID" id="76A545D4-B555-4D45-5650-923C8873A10C">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:35:06 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_NO" id="C350E935-80C5-0C64-30F4-F6C79E991B18">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:35:06 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BATCH_ID" id="FAB10077-8AFE-8E0E-65F9-9AA601D2B957">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:35:06 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SYS_C007587" id="102BD2EA-5546-C4D1-D987-8E44AD546143">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:35:06 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<schemaObject>AE34A0F8-A7B3-2882-82C8-4D3507787B2B</schemaObject>
+<segment>4D27908D-0F88-3468-0316-D6D6D77D3475</segment>
+<tableSpace>CDC4D02B-A9EB-B292-CEE8-97EFFAE418F7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COMPUTER_PK" id="09CA751F-B8E5-AF13-0E0A-BA274329D85A">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:37:14 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

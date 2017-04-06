@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="ClassPro(4)" id="5A2F9886-A119-FDD0-5218-3002AC4D69D0" mainViewID="D1E3EAF3-A5AF-6ADD-C279-CCFCE89983ED">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:35:05 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>ClassPro</connName>
+<connUrl>jdbc:oracle:thin:@localhost:1521:xe</connUrl>
+<connUser>My_First_DB </connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

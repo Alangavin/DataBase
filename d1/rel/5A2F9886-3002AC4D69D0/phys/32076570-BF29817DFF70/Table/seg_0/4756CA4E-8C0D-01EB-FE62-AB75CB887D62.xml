@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SUPPLIER" directorySegmentName="seg_0" id="4756CA4E-8C0D-01EB-FE62-AB75CB887D62">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:35:06 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<schemaObject>AE34A0F8-A7B3-2882-82C8-4D3507787B2B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>48E305D6-B7DE-1C0A-D4FD-4C5A8E56697A</segment>
+<tableSpace>CDC4D02B-A9EB-B292-CEE8-97EFFAE418F7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SUPPLIER_NAME" id="1F9BF634-C3ED-6D18-F4E7-DB878A2BE78B">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:35:06 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIER_ID" id="282D30A9-76AC-A512-29DA-7246E7D1D750">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:35:06 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIER_ADDRESS" id="FC54DD6F-55A3-D0C1-C345-1CD4CFE984E0">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:35:06 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SUPPLIER_PK" id="D2D062CE-F7DB-01C4-F788-2B91862B09F2">
+<createdBy>Al</createdBy>
+<createdTime>2017-04-05 23:35:06 UTC</createdTime>
+<ownerDesignName>d1</ownerDesignName>
+<schemaObject>AE34A0F8-A7B3-2882-82C8-4D3507787B2B</schemaObject>
+<segment>4D27908D-0F88-3468-0316-D6D6D77D3475</segment>
+<tableSpace>CDC4D02B-A9EB-B292-CEE8-97EFFAE418F7</tableSpace>
+<indexSegment>4D27908D-0F88-3468-0316-D6D6D77D3475</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
